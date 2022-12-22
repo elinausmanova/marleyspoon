@@ -1,22 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Getting Started - How to run this project locally
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Clone this github repo `git clone ...`
+2. Run `npm install` to install all necessary dependencies
+3. Run `npm run dev` to start the server on your localhost and run the app
 
 ## Guide through the web-app
 
@@ -25,7 +13,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 3. On the `user-details` page a user has to provide first name and email (both fields are mandatory) and click Submit
 4. If everything goes correct the user will be redirected to `confirmation` page, and if not, there will be an alert message
 
-## Outlook of ideas/suggestions to change/add/ improve
+## Outlook of ideas/suggestions to change/add/improve
 
 1. Add filter to the root page to select specific type of a meal (by category, cooking time, etc.)
 2. Add cart icon, so the user will see how many of the recipes are selected
