@@ -18,17 +18,25 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Guide through the web-app
 
-To learn more about Next.js, take a look at the following resources:
+1. Go to the root page and select 2 recipes - you cannot choose the same recipe twice (alert message), you cannot change your choice
+2. After selecting 2 recipes the button to proceed will be activated and the user will see a user details page after clicking on the button
+3. On the user-details page a user has to provide first name and email (both fields are mandatory) and click Submit
+4. If everything goes correct the user will be redirected to confirmation page, and if not, there will be an alert message
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Outlook of ideas/suggestions to change/add/ improve
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Add filter to the root page to select specific type of a meal (by category, cooking time, etc.)
+2. Add cart icon, so the user will see how many of the recipes are selected
+3. Being able to unselect the recipe on the root page
+4. Use nice pop-up messages instead of alert messages
+5. On the user-details page to be able to see more information about a recipe and to add an opportunity to delete selected recipe
+6. Use Redux (or any other global state manager) to avoid passing parameters between pages
+7. URL of the user-details page includes names of the selected recipes (by query) - it should not contain this information
+8. Add testing
+9. Change confirmation page so it would contain more details
+10. Create a login so a user doesn't have to put name and email everytime
+11. When a recipe is selected it should be saved in a global state and not on local state
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
