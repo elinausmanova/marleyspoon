@@ -1,0 +1,19 @@
+.successMessage {
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 35%;
+    text-align: center;
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.text {
+    font-size: 18px;
+    color: #27ab6c;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
