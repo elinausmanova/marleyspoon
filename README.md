@@ -38,5 +38,3 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 9. Change `confirmation` page so it would contain more details
 10. Create a login so a user doesn't have to put name and email everytime
 11. When a recipe is selected it should be saved in a global state and not on local state
-
-
